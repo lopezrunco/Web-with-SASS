@@ -1,5 +1,6 @@
-// Institutional (aplicated in pages: home)
+// Institutional (aplicated in pages: home, about)
 
+// Video section
 #institutional {
     text-align: center;
     background: $primaryBGColor;
@@ -9,11 +10,26 @@
     }
 
     .inst-video i {
-        font-size: 4em ;
+        font-size: 4em;
         color: $color1;
         position: absolute;
         left: 50%;
         transform: translate(-50%, -50%);
         top: 50%;
+    }
+}
+
+// Content section
+
+#institutional .content {
+    margin-top: 55px;
+
+    .item {
+        margin-bottom: 30px;
+
+        i {
+            font-size: 50px;
+            color: $color1;
+        }
     }
 }

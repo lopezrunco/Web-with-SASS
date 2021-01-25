@@ -1246,9 +1246,18 @@ article {
   padding: 90px 0;
 }
 
+section#content {
+  background: #f5f5f5;
+}
+
+section#fun-facts {
+  background: #111111;
+}
+
 article#services::after,
 section#plans::after,
-section#partners::after {
+section#partners::after,
+header.about-header::after {
   height: 60px;
   bottom: -30px;
   content: "";
@@ -1271,7 +1280,7 @@ h2.lowercase {
 }
 
 h4 {
-  margin: 0 0 24px;
+  margin: 24px 0;
   font-size: 1.3rem;
   font-weight: 600;
   color: #2f323a;
@@ -1282,6 +1291,15 @@ p {
   color: #6f6f6f;
   font-size: 1rem;
   line-height: 1.6em;
+}
+
+blockquote {
+  padding: 16px 24px;
+  color: #6f6f6f;
+  margin: 30px 15px;
+  border-left: 5px solid #dcdbdb;
+  font-style: italic;
+  line-height: 20px;
 }
 
 .breadcrumbs {
@@ -1312,6 +1330,15 @@ p {
   color: #fff;
   text-transform: uppercase;
   border: 1px solid #dd1e4b;
+}
+
+ul.content-list {
+  list-style: disc;
+  margin: 20px;
+  color: #6f6f6f;
+}
+ul.content-list li {
+  margin-bottom: 10px;
 }
 
 .home-header {
@@ -1423,6 +1450,17 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
   top: 50%;
+}
+
+#institutional .content {
+  margin-top: 55px;
+}
+#institutional .content .item {
+  margin-bottom: 30px;
+}
+#institutional .content .item i {
+  font-size: 50px;
+  color: #dd1e4b;
 }
 
 #plans {
@@ -1593,6 +1631,73 @@ footer p {
 footer p a {
   display: block;
   color: #dd1e4b;
+}
+
+.services-icons {
+  margin: 50px 0;
+  font-size: 20px;
+  font-weight: normal;
+}
+.services-icons li {
+  border-top: 1px solid #ccc;
+  padding: 30px 0;
+}
+.services-icons li a {
+  color: #2f323a;
+}
+
+.services-icons li:last-child {
+  border-bottom: 1px solid #ccc;
+}
+
+.services-icons i,
+.services-icons h5 {
+  display: inline-block;
+}
+
+.services-icons i {
+  color: #dd1e4b;
+  font-size: 35px;
+}
+
+.services-icons h5 {
+  padding-left: 30px;
+}
+
+.testimonial-card {
+  background: #e5e5e5;
+  border-radius: 2px;
+  padding: 25px 15px;
+  margin: 15px;
+  text-align: center;
+}
+.testimonial-card img {
+  border-radius: 50%;
+}
+.testimonial-card li {
+  display: inline-block;
+}
+.testimonial-card li a {
+  color: #dd1e4b;
+}
+
+section#fun-facts {
+  text-align: center;
+}
+section#fun-facts h2,
+section#fun-facts h4 {
+  color: #f5f5f5;
+}
+section#fun-facts h4 {
+  margin: 10px 0 31px 0;
+}
+section#fun-facts span {
+  color: #dd1e4b;
+  font-size: 40px;
+  font-weight: 600;
+}
+section#fun-facts .numbers-list {
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
