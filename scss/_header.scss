@@ -1,6 +1,6 @@
 // Navbar styles
 
-header {
+.home-header {
     background: url(../img/header-bg.jpg) center;
     background-size: cover;
 }
@@ -81,5 +81,21 @@ header {
         color: $h1-color;
     }
 
+}
 
+// about header
+
+.about-header {
+    background: url(../img/bg-4.jpg) center;
+    background-size: cover;
+    height: 600px;
+}
+
+// breadcrumbs
+
+.breadcrumbs ul li {
+    display: inline-block;
+    .active {
+        color: $color1;
+    }
 }
