@@ -1,0 +1,19 @@
+// Institutional (aplicated in pages: home)
+
+#institutional {
+    text-align: center;
+    background: $primaryBGColor;
+
+    .inst-video img {
+        width: 100%;
+    }
+
+    .inst-video i {
+        font-size: 4em ;
+        color: $color1;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        top: 50%;
+    }
+}

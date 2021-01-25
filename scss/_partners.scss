@@ -1,0 +1,10 @@
+// Partners (aplicated in pages: home)
+
+#partners {
+    background: $darkBGcolor;
+    text-align: center;
+
+    img {
+        filter: brightness(0) invert(1);
+    }
+}

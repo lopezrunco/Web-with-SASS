@@ -1,0 +1,81 @@
+// Global styles
+
+// Sections
+
+.content-wrap {
+    width: $content-wrap-width;
+}
+
+main,
+section,
+footer {
+    background: $secondaryBGColor;
+    font-family: $baseFont;
+}
+
+article {
+    padding: $article-p;
+}
+
+// Section separator
+
+article#services::after,
+section#plans::after,
+section#partners::after {
+    height: 60px;
+    bottom: -30px;
+    content: '';
+    position: absolute;
+    z-index: 2;
+    left: calc(50% - 2.5px);
+    width: 5px;
+    background: $color1;
+}
+
+// Titles
+
+h2 {
+    margin-bottom: 25px;
+    font-size: $h2-size;
+    font-weight: $h2-weight;
+    color: $h2-color;
+}
+
+h4 {
+    margin: $h4-m;
+    font-size: $h4-size;
+    font-weight: $h4-weight;
+    color: $h4-color;
+}
+
+// Text
+
+p {
+    margin-bottom: 1em;
+    color: $p-color;
+    font-size: $p-size;
+    line-height: $pline-height;      
+}
+
+// Buttons
+
+.btn {
+    padding: $btn-p;
+    margin: $btn-m;
+    display: inline-block;
+    border-radius: $btn-border-r;
+    font-family: $btn-ff;
+    font-weight: $btn-fw;
+}
+
+.btn-primary {
+    background: $primary-btn-bg;
+    color: $primary-btn-color;
+}
+
+.btn-secondary {
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid $color1;
+}

@@ -1,0 +1,85 @@
+// Navbar styles
+
+header {
+    background: url(../img/header-bg.jpg) center;
+    background-size: cover;
+}
+
+.nav-bar {
+    position: relative;
+    height: 170px;
+    top: 0;
+    padding: 20px 0;
+
+    .img-logo {
+        width: 135px;
+        float: left;
+    }
+
+    .menu-bar.fa-bars {
+        padding: 0;
+        float: right;
+    }
+}
+
+
+// Menu mobile styles
+
+#menu {
+    background: $primaryBGColor;
+    color: $color3;
+    text-transform: $a-transform;
+
+    #close {
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    ul li {
+        font-family: $baseFont;
+        font-size: $a-size;
+        font-weight: $a-weight;
+
+        a {
+            color: $color3;
+        }
+    }
+
+    i {
+        color: $color3;
+    }
+
+    span {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        font-family: $baseFont;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+
+.menu-search i {
+    position: absolute;
+    top: 20px;
+    right: 70px;
+    color: #fff;
+    font-size: $a-size;
+}
+
+// slide
+
+.slide-content {
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+
+    h2 {
+        font-family: $h1-font;
+        font-size: $h1-size;
+        font-weight: $h1-weight;
+        color: $h1-color;
+    }
+
+
+}
