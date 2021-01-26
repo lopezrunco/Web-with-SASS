@@ -1256,11 +1256,16 @@ section#fun-facts {
   background: #111111;
 }
 
+.main-content {
+  margin-bottom: 60px;
+}
+
 article#services::after,
 section#plans::after,
 section#partners::after,
 header.about-header::after,
-header.services-header::after {
+header.services-header::after,
+header.service-detail::after {
   height: 60px;
   bottom: -30px;
   content: "";
@@ -1354,7 +1359,8 @@ ul.content-list li {
 }
 
 .about-header,
-.services-header {
+.services-header,
+.service-detail {
   background-size: cover;
   height: 600px;
 }
@@ -1365,6 +1371,10 @@ ul.content-list li {
 
 .services-header {
   background: url(../img/bg-9.jpg) center;
+}
+
+.service-detail {
+  background: url(../img/bg-1.jpg) center;
 }
 
 .breadcrumbs ul li {
@@ -1753,6 +1763,16 @@ form input[type=submit] {
   width: auto;
   padding: 10px 40px;
   margin: 0;
+}
+
+ul.social-share li {
+  margin-right: 25px;
+  display: inline-block;
+  border: none;
+  font-size: 30px;
+}
+ul.social-share li a {
+  color: #dd1e4b;
 }
 
 /*# sourceMappingURL=style.css.map */

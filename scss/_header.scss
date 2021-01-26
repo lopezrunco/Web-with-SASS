@@ -6,7 +6,8 @@
 }
 
 .about-header,
-.services-header {
+.services-header,
+.service-detail {
     background-size: cover;
     height: 600px;
 }
@@ -17,6 +18,10 @@
 
 .services-header {
     background: url(../img/bg-9.jpg) center;
+}
+
+.service-detail {
+    background: url(../img/bg-1.jpg) center;
 }
 
 // breadcrumbs

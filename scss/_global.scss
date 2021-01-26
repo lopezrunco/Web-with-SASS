@@ -27,7 +27,9 @@ section#fun-facts {
     background: $darkBGcolor;
 }
 
-
+.main-content {
+    margin-bottom: 60px;
+}
 
 // Section separator
 
@@ -35,7 +37,8 @@ article#services::after,
 section#plans::after,
 section#partners::after,
 header.about-header::after,
-header.services-header::after {
+header.services-header::after,
+header.service-detail::after {
     height: 60px;
     bottom: -30px;
     content: '';
