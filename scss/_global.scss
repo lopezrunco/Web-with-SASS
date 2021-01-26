@@ -17,13 +17,17 @@ article {
     padding: $article-p;
 }
 
-section#content {
+section#content,
+section#our-solutions,
+section.contact-form {
     background: $primaryBGColor;
 }
 
 section#fun-facts {
     background: $darkBGcolor;
 }
+
+
 
 // Section separator
 
@@ -69,6 +73,10 @@ p {
     color: $p-color;
     font-size: $p-size;
     line-height: $pline-height;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
 // Blockquote

@@ -1246,7 +1246,9 @@ article {
   padding: 90px 0;
 }
 
-section#content {
+section#content,
+section#our-solutions,
+section.contact-form {
   background: #f5f5f5;
 }
 
@@ -1292,6 +1294,10 @@ p {
   color: #6f6f6f;
   font-size: 1rem;
   line-height: 1.6em;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 blockquote {
@@ -1707,6 +1713,46 @@ section#fun-facts span {
 }
 section#fun-facts .numbers-list {
   margin-top: 30px;
+}
+
+#our-solutions {
+  text-align: center;
+}
+#our-solutions .title {
+  margin-bottom: 30px;
+}
+#our-solutions .card {
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  margin: 35px 10px;
+  padding: 40px 20px;
+}
+#our-solutions .card i {
+  font-size: 40px;
+  color: #dd1e4b;
+}
+#our-solutions .card a i {
+  font-size: 20px;
+}
+
+form {
+  margin-bottom: 30px;
+}
+form input {
+  width: 90%;
+  padding: 10px 5%;
+  margin: 10px 0;
+  background: #f5f5f5;
+  border-radius: 2px;
+  border: 1px solid #dd1e4b;
+  font-family: "Poppins";
+  font-size: 17px;
+  color: #6f6f6f;
+}
+
+form input[type=submit] {
+  width: auto;
+  padding: 10px 40px;
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
