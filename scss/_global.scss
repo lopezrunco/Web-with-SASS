@@ -30,7 +30,8 @@ section#fun-facts {
 article#services::after,
 section#plans::after,
 section#partners::after,
-header.about-header::after {
+header.about-header::after,
+header.services-header::after {
     height: 60px;
     bottom: -30px;
     content: '';

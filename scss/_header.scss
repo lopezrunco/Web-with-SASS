@@ -1,9 +1,35 @@
-// Navbar styles
+// Header styles
 
 .home-header {
     background: url(../img/header-bg.jpg) center;
     background-size: cover;
 }
+
+.about-header,
+.services-header {
+    background-size: cover;
+    height: 600px;
+}
+
+.about-header {
+    background: url(../img/bg-4.jpg) center;
+}
+
+.services-header {
+    background: url(../img/bg-9.jpg) center;
+}
+
+// breadcrumbs
+
+.breadcrumbs ul li {
+    display: inline-block;
+
+    .active {
+        color: $color1;
+    }
+}
+
+// Navbar styles
 
 .nav-bar {
     position: relative;
@@ -81,21 +107,4 @@
         color: $h1-color;
     }
 
-}
-
-// about header
-
-.about-header {
-    background: url(../img/bg-4.jpg) center;
-    background-size: cover;
-    height: 600px;
-}
-
-// breadcrumbs
-
-.breadcrumbs ul li {
-    display: inline-block;
-    .active {
-        color: $color1;
-    }
 }
