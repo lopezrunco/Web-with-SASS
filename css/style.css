@@ -1265,7 +1265,8 @@ section#plans::after,
 section#partners::after,
 header.about-header::after,
 header.services-header::after,
-header.service-detail::after {
+header.service-detail::after,
+header.portfolio-header::after {
   height: 60px;
   bottom: -30px;
   content: "";
@@ -1360,7 +1361,8 @@ ul.content-list li {
 
 .about-header,
 .services-header,
-.service-detail {
+.service-detail,
+.portfolio-header {
   background-size: cover;
   height: 600px;
 }
@@ -1375,6 +1377,10 @@ ul.content-list li {
 
 .service-detail {
   background: url(../img/bg-1.jpg) center;
+}
+
+.portfolio-header {
+  background: url(../img/bg-7.jpg);
 }
 
 .breadcrumbs ul li {
