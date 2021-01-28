@@ -1,0 +1,20 @@
+// Newsletter form styles (Used on blog.html)
+
+#newsletter {
+    text-align: center;
+
+    form.subscribe-form input {
+        width: 80%;
+        padding: 10px 5%;
+        margin: 10px 5%;
+        background: #ffffff;
+        border: 1px solid #ccc;
+    }
+
+    form.subscribe-form input[type=submit] {
+        width: 90%;
+        margin: 20px 0;
+        background: $color1;
+        color: $color5;
+    }
+}

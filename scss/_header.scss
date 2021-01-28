@@ -9,7 +9,9 @@
 .services-header,
 .service-detail,
 .portfolio-header,
-.portfolio-item-header {
+.portfolio-item-header,
+.blog-header,
+.blog-item-header {
     background-size: cover;
     height: 600px;
 }
@@ -31,7 +33,8 @@
     background: url(../img/bg-7.jpg) center;
 }
 
-.blog-header {
+.blog-header,
+.blog-item-header {
     background: url(../img/bg-5.jpg) center;
 }
 
