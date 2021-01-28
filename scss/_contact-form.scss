@@ -34,3 +34,18 @@
         }
     }
 }
+
+// Dark form styles (Used on portfolio.html)
+
+#contact-form .dark-form {
+
+    input,
+    select,
+    textarea {
+        background: $darkBGcolor;
+        border: 1px solid $color5;
+    }
+    input[type="button"] {
+        background: $color1;
+    }
+}

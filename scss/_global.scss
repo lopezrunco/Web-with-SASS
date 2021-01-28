@@ -31,6 +31,14 @@ section#fun-facts {
     margin-bottom: 60px;
 }
 
+.dark-bg1-section {
+    background: $cardBGColor;
+}
+
+.dark-bg2-section {
+    background: $darkBGcolor;
+}
+
 // Section separator
 
 article#services::after,

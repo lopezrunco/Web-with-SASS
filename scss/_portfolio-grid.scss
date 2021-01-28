@@ -1,0 +1,27 @@
+// Portfolio grid styles (Used on portfolio.html)
+
+#portfolio-grid {
+    text-align: center;
+    color: $color5;
+
+    h2 {
+        color: $color1;
+        font-size: 3.4rem;
+        font-weight: 800;
+    }
+
+    .portfolio-item {
+        margin-bottom: 30px;
+        padding: 30px;
+        background: $bottomBGColor;
+        overflow: hidden;
+
+        h4 {
+            color: $color5;
+        }
+    }
+}
+
+.portfolio-item img {
+    width: 100%;
+}
