@@ -8,7 +8,8 @@
 .about-header,
 .services-header,
 .service-detail,
-.portfolio-header {
+.portfolio-header,
+.portfolio-item-header {
     background-size: cover;
     height: 600px;
 }
@@ -25,7 +26,8 @@
     background: url(../img/bg-1.jpg) center;
 }
 
-.portfolio-header {
+.portfolio-header,
+.portfolio-item-header {
     background: url(../img/bg-7.jpg);
 }
 

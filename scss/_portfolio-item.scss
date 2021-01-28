@@ -1,0 +1,19 @@
+// Portfolio item styles (Used on portfolio-item.html)
+
+#portfolio-item {
+    color: $color4;
+    text-align: center;
+
+    h2 {
+        color: $color1;
+        font-weight: 800;
+    }
+
+    .img-wrapper {
+        overflow: hidden;
+
+        img {
+            width: 100%;
+        }
+    }
+}

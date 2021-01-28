@@ -1274,7 +1274,8 @@ section#partners::after,
 header.about-header::after,
 header.services-header::after,
 header.service-detail::after,
-header.portfolio-header::after {
+header.portfolio-header::after,
+header.portfolio-item-header::after {
   height: 60px;
   bottom: -30px;
   content: "";
@@ -1370,7 +1371,8 @@ ul.content-list li {
 .about-header,
 .services-header,
 .service-detail,
-.portfolio-header {
+.portfolio-header,
+.portfolio-item-header {
   background-size: cover;
   height: 600px;
 }
@@ -1387,7 +1389,8 @@ ul.content-list li {
   background: url(../img/bg-1.jpg) center;
 }
 
-.portfolio-header {
+.portfolio-header,
+.portfolio-item-header {
   background: url(../img/bg-7.jpg);
 }
 
@@ -1832,6 +1835,21 @@ ul.social-share li a {
 }
 .content-light-styles h4 {
   color: #f5f5f5;
+}
+
+#portfolio-item {
+  color: #8e8e8e;
+  text-align: center;
+}
+#portfolio-item h2 {
+  color: #dd1e4b;
+  font-weight: 800;
+}
+#portfolio-item .img-wrapper {
+  overflow: hidden;
+}
+#portfolio-item .img-wrapper img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
