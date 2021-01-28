@@ -28,7 +28,11 @@
 
 .portfolio-header,
 .portfolio-item-header {
-    background: url(../img/bg-7.jpg);
+    background: url(../img/bg-7.jpg) center;
+}
+
+.blog-header {
+    background: url(../img/bg-5.jpg) center;
 }
 
 // breadcrumbs

@@ -19,7 +19,8 @@ article {
 
 section#content,
 section#our-solutions,
-section.contact-form {
+section.contact-form,
+section#blog {
     background: $primaryBGColor;
 }
 
@@ -48,7 +49,8 @@ header.about-header::after,
 header.services-header::after,
 header.service-detail::after,
 header.portfolio-header::after,
-header.portfolio-item-header::after {
+header.portfolio-item-header::after,
+header.blog-header::after {
     height: 60px;
     bottom: -30px;
     content: '';
