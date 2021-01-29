@@ -1260,7 +1260,9 @@ section.contact-form,
 section#blog,
 .blog-item-page,
 section#blog-item-main-content,
-section#blog-item-secondary-content {
+section#blog-item-secondary-content,
+section#contact-info,
+section#form-institutional {
   background: #f5f5f5;
 }
 
@@ -1278,6 +1280,10 @@ section#fun-facts {
 
 .dark-bg2-section {
   background: #111111;
+}
+
+section.map article {
+  padding: 0;
 }
 
 article#services::after,
