@@ -54,7 +54,8 @@ header.service-detail::after,
 header.portfolio-header::after,
 header.portfolio-item-header::after,
 header.blog-header::after,
-header.blog-item-header::after {
+header.blog-item-header::after,
+header.contact-header::after {
     height: 60px;
     bottom: -30px;
     content: '';

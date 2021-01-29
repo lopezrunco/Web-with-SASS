@@ -11,7 +11,8 @@
 .portfolio-header,
 .portfolio-item-header,
 .blog-header,
-.blog-item-header {
+.blog-item-header,
+.contact-header {
     background-size: cover;
     height: 600px;
 }
@@ -36,6 +37,10 @@
 .blog-header,
 .blog-item-header {
     background: url(../img/bg-5.jpg) center;
+}
+
+.contact-header {
+    background: url(../img/bg-2.jpg) center;
 }
 
 // breadcrumbs

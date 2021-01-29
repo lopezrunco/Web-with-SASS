@@ -1289,7 +1289,8 @@ header.service-detail::after,
 header.portfolio-header::after,
 header.portfolio-item-header::after,
 header.blog-header::after,
-header.blog-item-header::after {
+header.blog-item-header::after,
+header.contact-header::after {
   height: 60px;
   bottom: -30px;
   content: "";
@@ -1388,7 +1389,8 @@ ul.content-list li {
 .portfolio-header,
 .portfolio-item-header,
 .blog-header,
-.blog-item-header {
+.blog-item-header,
+.contact-header {
   background-size: cover;
   height: 600px;
 }
@@ -1413,6 +1415,10 @@ ul.content-list li {
 .blog-header,
 .blog-item-header {
   background: url(../img/bg-5.jpg) center;
+}
+
+.contact-header {
+  background: url(../img/bg-2.jpg) center;
 }
 
 .breadcrumbs ul li {
@@ -2004,6 +2010,98 @@ ul.social-share li a {
   display: inline-block;
   font-size: 16px;
   margin-right: 5px;
+}
+
+#recent-posts {
+  text-align: center;
+  background: #eeeeee;
+}
+
+#recent-posts .item-wrapper {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  margin: 20px 10px;
+  text-align: center;
+  color: #f5f5f5;
+  overflow: hidden;
+  min-height: 360px;
+  position: relative;
+}
+#recent-posts .item-wrapper .img-wrapper-1,
+#recent-posts .item-wrapper .img-wrapper-2,
+#recent-posts .item-wrapper .img-wrapper-3,
+#recent-posts .item-wrapper .img-wrapper-4,
+#recent-posts .item-wrapper .img-wrapper-5,
+#recent-posts .item-wrapper .img-wrapper-6,
+#recent-posts .item-wrapper .img-wrapper-7,
+#recent-posts .item-wrapper .img-wrapper-8 {
+  width: 100%;
+  height: 100%;
+  min-height: 360px;
+}
+#recent-posts .item-wrapper .img-wrapper-1 {
+  background: url(../img/news-1-h.jpg) center center;
+  background-size: cover;
+}
+#recent-posts .item-wrapper .img-wrapper-2 {
+  background: url(../img/news-2-h.jpg) center center;
+  background-size: cover;
+}
+#recent-posts .item-wrapper .img-wrapper-3 {
+  background: url(../img/news-3-h.jpg) center center;
+  background-size: cover;
+}
+#recent-posts .item-wrapper .img-wrapper-4 {
+  background: url(../img/news-4-h.jpg) center center;
+  background-size: cover;
+}
+#recent-posts .item-wrapper .img-wrapper-5 {
+  background: url(../img/news-5-h.jpg) center center;
+  background-size: cover;
+}
+#recent-posts .item-wrapper .img-wrapper-6 {
+  background: url(../img/news-6-h.jpg) center center;
+  background-size: cover;
+}
+#recent-posts .item-wrapper .img-wrapper-7 {
+  background: url(../img/news-7-h.jpg) center center;
+  background-size: cover;
+}
+#recent-posts .item-wrapper .img-wrapper-8 {
+  background: url(../img/news-8-h.jpg) center center;
+  background-size: cover;
+}
+#recent-posts .item-wrapper h4,
+#recent-posts .item-wrapper p {
+  color: #f5f5f5;
+  margin: 0;
+}
+
+#recent-posts .item-info-group {
+  bottom: 0;
+  position: absolute;
+  left: 0;
+}
+#recent-posts .item-info-group .item-title,
+#recent-posts .item-info-group .item-footer {
+  padding: 30px 25px;
+}
+#recent-posts .item-info-group .item-title {
+  border-bottom: 1px solid #f5f5f55c;
+}
+#recent-posts .item-info-group .item-footer * {
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+#recent-posts .item-nav .nav-bullet {
+  display: inline-block;
+  height: 5px;
+  width: 40px;
+  background: #8e8e8e42;
+}
+#recent-posts .item-nav .nav-bullet.active {
+  background: #dd1e4b;
 }
 
 section#blog-item-main-content article {
