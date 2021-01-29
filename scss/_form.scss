@@ -22,3 +22,51 @@ form input[type=submit] {
     padding: 10px 40px;
     margin: 0;
 }
+
+// Newsletter form styles (Used on blog.html)
+
+#newsletter {
+    text-align: center;
+
+    form.subscribe-form input {
+        width: 80%;
+        padding: 10px 5%;
+        margin: 10px 5%;
+        background: #ffffff;
+        border: 1px solid #ccc;
+    }
+
+    form.subscribe-form input[type=submit] {
+        width: 90%;
+        margin: 20px 0;
+        background: $color1;
+        color: $color5;
+    }
+}
+
+// Reply form (Used on blog-item.html)
+
+.reply-form {
+    margin-bottom: 0;
+
+    input {
+        border: 1px solid #ccc;
+    }
+
+    textarea {
+        width: 90%;
+        height: 200px;
+        padding: 10px 5%;
+        border: 1px solid #ccc;
+        background: $color5;
+        font-family: $baseFont;
+        font-size: 17px;
+    }
+
+    input[type=submit] {
+        margin: 20px 0;
+        background: $color1;
+        color: $color5;
+    }
+
+}

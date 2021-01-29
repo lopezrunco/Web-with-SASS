@@ -20,7 +20,10 @@ article {
 section#content,
 section#our-solutions,
 section.contact-form,
-section#blog {
+section#blog,
+.blog-item-page,
+section#blog-item-main-content,
+section#blog-item-secondary-content {
     background: $primaryBGColor;
 }
 
