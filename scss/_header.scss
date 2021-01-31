@@ -132,3 +132,40 @@
     }
 
 }
+
+
+// Media queries (More than width 1200px)
+@media only screen and (min-width: 1200px) {
+
+    header {
+        height: 900px;
+
+        .menu-search {
+            display: none;
+        }
+    }
+
+    .main-nav {
+        text-transform: capitalize;
+        padding: 20px 0;
+        font-family: $baseFont;
+
+        a {
+            color: #fff;
+        }
+
+    }
+
+    .slide-content {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+
+        h2 {
+            font-size: 6rem;
+        }
+    }
+
+
+
+}
