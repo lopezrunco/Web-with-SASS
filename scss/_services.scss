@@ -15,3 +15,13 @@
     }
 
 }
+
+// Media queries (More than width 780px)
+
+@media only screen and (min-width: 576px) {
+
+    #services div {
+        margin: 5px 0;
+    }
+
+}

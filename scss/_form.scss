@@ -111,8 +111,6 @@ form input[type=submit] {
     }
 }
 
-
-
 // Dark form styles (Used on portfolio.html)
 
 #contact-form .dark-form {
@@ -123,7 +121,24 @@ form input[type=submit] {
 
         border: 1px solid $darkBGcolor;
     }
+
     input[type="button"] {
         background: $color1;
     }
+}
+
+// Media queries (More than width 780px)
+
+@media only screen and (min-width: 576px) {
+
+    #contact-form .form input,
+    #contact-form .form select,
+    #contact-form .form textarea {
+        width: 95%;
+    }
+
+    #contact-form .form select {
+        width: 100%;
+    }
+
 }
