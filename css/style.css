@@ -309,7 +309,7 @@ header .content-wrap {
 }
 
 /* menu mobile -----------------------------------------------------------------------------------------------------*/
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 780px) {
   .main-nav {
     display: none;
   }
@@ -1286,7 +1286,6 @@ section.map article {
   padding: 0;
 }
 
-article#services::after,
 section#plans::after,
 section#partners::after,
 header.about-header::after,
@@ -1542,6 +1541,11 @@ ul.content-list li {
   display: none;
 }
 
+@media only screen and (min-width: 760px) {
+  #contact-form #institutional {
+    display: block;
+  }
+}
 #plans {
   background: #111111;
   text-align: center;
