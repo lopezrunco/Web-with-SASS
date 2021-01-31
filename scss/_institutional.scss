@@ -68,9 +68,20 @@
 
 @media only screen and (min-width: 1200px) {
 
-    #institutional .inst-video {
-        overflow: hidden;
-        margin: 40px 100px 0;
+    #institutional {
+        .content .item i {
+            font-size: 60px;
+        }
+
+        .inst-video {
+            overflow: hidden;
+            margin: 40px 100px 0;
+        }
+
+
     }
 
+    #institutional.institutional-0-margin .inst-video {
+        margin: 0;
+    }
 }

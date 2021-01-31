@@ -45,7 +45,7 @@ section#fun-facts {
     background: $darkBGcolor;
 }
 
-section.map article{
+section.map article {
     padding: 0;
 }
 
@@ -156,8 +156,23 @@ ul.content-list {
     list-style: disc;
     margin: 20px;
     color: $p-color;
+
     li {
         margin-bottom: 10px;
     }
 }
 
+// Media queries (More than width 1200px)
+
+@media only screen and (min-width: 1200px) {
+
+    .main-content,
+    #blog-item-main-content {
+        padding-right: 60px;
+    }
+
+
+
+
+
+}
