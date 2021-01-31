@@ -54,12 +54,23 @@
     }
 
     #institutional .inst-video {
-            overflow: hidden;
+        overflow: hidden;
 
-            img {
-                height: 550px;
-                width: auto;
-            }
+        img {
+            height: 550px;
+            width: auto;
+        }
 
     }
+}
+
+// Media queries (More than width 1200px)
+
+@media only screen and (min-width: 1200px) {
+
+    #institutional .inst-video {
+        overflow: hidden;
+        margin: 40px 100px 0;
+    }
+
 }
