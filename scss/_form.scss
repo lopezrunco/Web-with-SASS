@@ -70,3 +70,60 @@ form input[type=submit] {
     }
 
 }
+
+// Contact form (aplicated in pages: home, contact)
+
+#contact-form {
+    text-align: center;
+
+    .form {
+        padding: 50px 20px 0;
+
+        input,
+        select,
+        textarea {
+            width: 90%;
+            margin: 10px 0;
+            border: 1px solid rgba(0, 0, 0, .25);
+            border-radius: 2px;
+            padding: 10px 15px;
+            font-size: $p-size;
+            font-family: $baseFont;
+            color: $color4;
+            background: #f5f5f5;
+        }
+
+        select {
+            width: 100%;
+            background: #f5f5f5;
+        }
+
+        input[type="button"] {
+            width: auto;
+            background: #dd1e4b;
+            color: #fff;
+            padding: 10px 25px;
+            border-radius: 2px;
+            border: none;
+            margin: 0 0 0 0;
+            text-transform: uppercase;
+        }
+    }
+}
+
+
+
+// Dark form styles (Used on portfolio.html)
+
+#contact-form .dark-form {
+
+    input,
+    select,
+    textarea {
+
+        border: 1px solid $darkBGcolor;
+    }
+    input[type="button"] {
+        background: $color1;
+    }
+}
