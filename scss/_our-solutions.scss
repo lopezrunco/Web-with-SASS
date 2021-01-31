@@ -22,3 +22,26 @@
         }
     }
 }
+
+
+
+// Media queries (More than width 576px)
+
+@media only screen and (min-width: 576px) {
+
+    #our-solutions {
+
+        .title {
+            text-align: left;
+
+            a {
+                text-align: center;
+            }
+        }
+
+        .card {
+            margin: 15px 0;
+        }
+
+    }
+}

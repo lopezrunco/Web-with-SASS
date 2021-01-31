@@ -147,3 +147,39 @@ section#blog-item-main-content {
         }
     }
 }
+
+
+// Media queries (More than width 576px)
+
+@media only screen and (min-width: 576px) {
+
+    #blog-item-secondary-content {
+
+        .item-blog-info .blog-category {
+            position: absolute;
+            right: 20px;
+        }
+
+        .share-list li {
+            display: inline-block;
+            margin-right: 30px;
+            font-size: 30px;
+        }
+
+        .gallery {
+            display: none;
+        }
+
+    }
+
+    #recent-posts .item-wrapper {
+        margin: 10px 0;
+        min-height: 450px;
+
+        [class*='img-wrapper'] {
+            // Partial selector of css classes ".img-wrapper-1, .img-wrapper-1, etc"
+            min-height: 450px;
+        }
+    }
+
+}

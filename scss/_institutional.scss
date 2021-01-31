@@ -42,10 +42,23 @@
 
 // Media queries
 
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 576px) {
 
-    #contact-form #institutional {
-        display: block;
+    #institutional .content {
+        margin-top: 0;
+
+        .item i {
+            font-size: 40px;
+        }
     }
 
+    #institutional .inst-video {
+            overflow: hidden;
+
+            img {
+                height: 550px;
+                width: auto;
+            }
+
+    }
 }
