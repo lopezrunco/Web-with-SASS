@@ -8,5 +8,9 @@ ul.social-share li {
 
     a {
         color: $color1;
+
+        &:hover {
+            opacity: .8;
+        }
     }
 }

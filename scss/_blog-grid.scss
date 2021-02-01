@@ -90,6 +90,19 @@
     }
 }
 
+
+// Hover FX
+
+#blog .overlay {
+    transition: ease-in-out .25s;
+
+    &:hover {
+        background: rgba($color1, .8);
+    }
+
+}
+
+
 // Latest news (Used on blog-item.html)
 
 #recent-posts {
@@ -218,7 +231,7 @@
     #newsletter form.subscribe-form input {
         width: 90%;
         margin: 10px 0;
-        
+
     }
 
     #newsletter form.subscribe-form input[type=submit] {
@@ -239,6 +252,6 @@
         }
     }
 
-    
+
 
 }

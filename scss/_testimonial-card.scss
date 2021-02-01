@@ -7,6 +7,16 @@
     margin: 15px;
     text-align: center;
 
+    &:hover {
+        background: $color1;
+
+        h4,
+        p,
+        i {
+            color: #fff;
+        }
+    }
+
     img {
         border-radius: 50%;
     }

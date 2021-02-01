@@ -1609,7 +1609,7 @@ ul.content-list li {
     transition: ease-in-out 0.2s;
   }
   #institutional .inst-video img:hover {
-    transform: scale(1.1);
+    opacity: 0.8;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -1876,6 +1876,14 @@ footer p a:hover {
   margin: 15px;
   text-align: center;
 }
+.testimonial-card:hover {
+  background: #dd1e4b;
+}
+.testimonial-card:hover h4,
+.testimonial-card:hover p,
+.testimonial-card:hover i {
+  color: #fff;
+}
 .testimonial-card img {
   border-radius: 50%;
 }
@@ -1933,6 +1941,14 @@ section#fun-facts .numbers-list {
   }
   #our-solutions .card {
     margin: 15px 0;
+  }
+  #our-solutions .card:hover {
+    background: #dd1e4b;
+  }
+  #our-solutions .card:hover i,
+#our-solutions .card:hover h4,
+#our-solutions .card:hover p {
+    color: #fff;
   }
 }
 form {
@@ -2067,6 +2083,9 @@ ul.social-share li {
 ul.social-share li a {
   color: #dd1e4b;
 }
+ul.social-share li a:hover {
+  opacity: 0.8;
+}
 
 #portfolio-grid {
   text-align: center;
@@ -2082,6 +2101,17 @@ ul.social-share li a {
   padding: 30px;
   background: #191919;
   overflow: hidden;
+  transition: ease-in-out 0.5s;
+}
+#portfolio-grid .portfolio-item p {
+  transition: ease-in-out 0.5s;
+}
+#portfolio-grid .portfolio-item:hover {
+  background: #dd1e4b;
+  transform: translate(0, -15px);
+}
+#portfolio-grid .portfolio-item:hover p {
+  color: #fff;
 }
 #portfolio-grid .portfolio-item h4 {
   color: #f5f5f5;
@@ -2225,6 +2255,13 @@ ul.social-share li a {
   display: inline-block;
   font-size: 16px;
   margin-right: 5px;
+}
+
+#blog .overlay {
+  transition: ease-in-out 0.25s;
+}
+#blog .overlay:hover {
+  background: rgba(221, 30, 75, 0.8);
 }
 
 #recent-posts {
