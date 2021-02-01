@@ -11,6 +11,11 @@ footer {
         a {
             display: block;
             color: $color1;
+            transition: ease-in-out .25s;
+
+            &:hover {
+                color: #fff;
+            }
         }
     }
 }

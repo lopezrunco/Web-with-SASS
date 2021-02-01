@@ -1638,6 +1638,26 @@ ul.content-list li {
   padding: 35px;
   background: #191919;
   color: #8e8e8e;
+  transition: ease-in-out 0.5s;
+}
+#plans .price-card i,
+#plans .price-card span.price,
+#plans .price-card .btn,
+#plans .price-card .btn-primary,
+#plans .price-card a {
+  transition: ease-in-out 0.5s;
+}
+#plans .price-card:hover {
+  transform: translate(0, -15px);
+  background: #dd1e4b;
+  color: #fff;
+}
+#plans .price-card:hover i,
+#plans .price-card:hover span.price {
+  color: #fff;
+}
+#plans .price-card:hover .btn-primary {
+  border: 1px solid #cccccc3d;
 }
 #plans .price-card .icon {
   color: #dd1e4b;
@@ -1696,6 +1716,20 @@ ul.content-list li {
   }
   #portfolio .portfolio-card {
     margin: 30px 0px;
+    transition: ease-in-out 0.5s;
+  }
+  #portfolio .portfolio-card h4,
+#portfolio .portfolio-card p {
+    transition: ease-in-out 0.5s;
+  }
+  #portfolio .portfolio-card:hover {
+    transform: translate(0, -15px);
+    background: #dd1e4b;
+    color: #fff;
+  }
+  #portfolio .portfolio-card:hover h4,
+#portfolio .portfolio-card:hover p {
+    color: #fff;
   }
 }
 #partners {
@@ -1709,6 +1743,10 @@ ul.content-list li {
 @media only screen and (min-width: 1200px) {
   #partners img {
     width: 170px;
+    transition: ease-in-out 0.25s;
+  }
+  #partners img:hover {
+    transform: scale(1.05);
   }
 }
 #bottom {
@@ -1724,9 +1762,17 @@ ul.content-list li {
 }
 #bottom a {
   color: #8e8e8e;
+  transition: ease-in-out 0.25s;
+}
+#bottom a:hover {
+  color: #dd1e4b;
 }
 #bottom a.btn-secondary {
   color: #fff;
+  transition: ease-in-out 0.25s;
+}
+#bottom a.btn-secondary:hover {
+  background: #dd1e4b;
 }
 #bottom .logo {
   display: inline-block;
@@ -1746,6 +1792,10 @@ ul.content-list li {
 .social-list li i {
   font-size: 1.5em;
   color: #dd1e4b;
+  transition: ease-in-out 0.25s;
+}
+.social-list li i:hover {
+  color: #fff;
 }
 
 .get-in-touch li {
@@ -1765,6 +1815,10 @@ ul.content-list li {
   border: 1px solid #8e8e8e;
   border-radius: 2px;
   padding: 10px 25px;
+  transition: ease-in-out 0.25s;
+}
+#bottom .tags a:hover {
+  border: 1px solid #dd1e4b;
 }
 
 footer {
@@ -1778,6 +1832,10 @@ footer p {
 footer p a {
   display: block;
   color: #dd1e4b;
+  transition: ease-in-out 0.25s;
+}
+footer p a:hover {
+  color: #fff;
 }
 
 .services-icons {
@@ -1968,6 +2026,9 @@ form input[type=submit] {
   border: none;
   margin: 0 0 0 0;
   text-transform: uppercase;
+}
+#contact-form .form input[type=button]:hover {
+  background: #b0183c;
 }
 
 #contact-form .dark-form input,

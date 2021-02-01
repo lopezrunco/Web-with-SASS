@@ -15,10 +15,20 @@
 
     a {
         color: $color4;
+        transition: ease-in-out .25s;
+
+        &:hover {
+            color: $color1;
+        }
     }
 
     a.btn-secondary {
         color: #fff;
+        transition: ease-in-out .25s;
+
+        &:hover {
+            background: $color1;
+        }
     }
 
     .logo {
@@ -41,6 +51,11 @@
     i {
         font-size: 1.5em;
         color: $color1;
+        transition: ease-in-out .25s;
+
+        &:hover {
+            color: #fff;
+        }
     }
 }
 
@@ -63,4 +78,9 @@
     border: 1px solid $color4;
     border-radius: 2px;
     padding: 10px 25px;
+    transition: ease-in-out .25s;
+
+    &:hover {
+        border: 1px solid $color1;
+    }
 }

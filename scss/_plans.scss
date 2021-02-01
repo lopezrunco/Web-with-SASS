@@ -14,6 +14,30 @@
         padding: 35px;
         background: $cardBGColor;
         color: $color4;
+        transition: ease-in-out .50s;
+
+        i,
+        span.price,
+        .btn,
+        .btn-primary,
+        a {
+            transition: ease-in-out .50s;
+        }
+
+        &:hover {
+            transform: translate(0, -15px);
+            background: $color1;
+            color: #fff;
+
+            i,
+            span.price {
+                color: #fff;
+            }
+
+            .btn-primary {
+                border: 1px solid #cccccc3d;
+            }
+        }
 
         .icon {
             color: $color1;
@@ -46,7 +70,8 @@
 
 
         i {
-            color: #cccccc3d;;
+            color: #cccccc3d;
+            ;
             font-size: 1em;
             float: right;
         }
