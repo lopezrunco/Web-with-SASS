@@ -141,6 +141,11 @@ blockquote {
 .btn-primary {
     background: $primary-btn-bg;
     color: $primary-btn-color;
+    transition: ease-in-out .25s;
+
+    &:hover {
+        background: darken(#dd1e4b, 10%);
+      }
 }
 
 .btn-secondary {
@@ -170,9 +175,5 @@ ul.content-list {
     #blog-item-main-content {
         padding-right: 60px;
     }
-
-
-
-
 
 }

@@ -16,6 +16,12 @@
         left: 50%;
         transform: translate(-50%, -50%);
         top: 50%;
+        z-index: 99999;
+        transition: ease-in-out .10s;
+
+        &:hover {
+            color: #fff;
+        }
     }
 }
 
@@ -59,6 +65,11 @@
         img {
             height: 550px;
             width: auto;
+            transition: ease-in-out .20s;
+
+            &:hover {
+                transform: scale(1.1);
+            }
         }
 
     }
@@ -77,7 +88,6 @@
             overflow: hidden;
             margin: 40px 100px 0;
         }
-
 
     }
 

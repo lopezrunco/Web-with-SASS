@@ -154,6 +154,15 @@
             color: #fff;
         }
 
+        a.active {
+            color: $color1;
+            border-bottom: 2px solid $color1;
+        }
+
+        a:hover {
+            color: $color1;
+        }
+
     }
 
     .slide-content {

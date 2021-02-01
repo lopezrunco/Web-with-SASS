@@ -183,3 +183,14 @@ section#blog-item-main-content {
     }
 
 }
+
+
+// Media queries (More than width 1200px)
+
+@media only screen and (min-width: 1200px) {
+
+    #blog-item-secondary-content .gallery {
+        display: block;
+    }
+
+}
