@@ -41,6 +41,11 @@ form input[type=submit] {
         margin: 20px 0;
         background: $color1;
         color: $color5;
+        transition: ease-in-out .25s;
+
+        &:hover {
+            background: darken(#dd1e4b, 10%);
+        }
     }
 }
 
@@ -67,6 +72,11 @@ form input[type=submit] {
         margin: 20px 0;
         background: $color1;
         color: $color5;
+        transition: ease-in-out .25s;
+
+        &:hover {
+            background: darken(#dd1e4b, 10%);
+        }
     }
 
 }

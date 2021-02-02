@@ -93,7 +93,8 @@
 
 // Hover FX
 
-#blog .overlay {
+#blog .overlay,
+#recent-posts .overlay {
     transition: ease-in-out .25s;
 
     &:hover {
@@ -206,6 +207,10 @@
         height: 5px;
         width: 40px;
         background: #8e8e8e42;
+
+        &:hover {
+            background: darken(#8e8e8e42, 50%);
+        }
     }
 
     .nav-bullet.active {
